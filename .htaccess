@@ -1,0 +1,6 @@
+RewriteEngine On
+
+
+#RewriteRule ^vippro.html$ index.php?page=sanpham
+
+RewriteRule ^(.*).html$    index.php?page=$1
